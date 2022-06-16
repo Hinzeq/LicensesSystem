@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LicensesSystem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220616221418_initialsetup")]
+    [Migration("20220616223940_initialsetup")]
     partial class initialsetup
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
